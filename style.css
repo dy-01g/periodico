@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b99f66;
+}
+.banner-container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    height: 100vh;
+    
+}
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 1000;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.cuadro{
+    background-color: #eed08ec4;
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+}
+li{
+    padding-top: 1px;
+
+}
+p{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fffbd88c;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333;
+    font-size: 24px;
+    padding-top: 1px;
+
+}
+.banner {
+    width: 100%;
+    height: 15vh;
+    background-color: #ccc;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba (0, 0, 0, 0.1)
+}
+#banner1{
+    background-image: url(logo.jpg);
+}
+#banner2 {
+    background-image: url(comunicadosbann.jpg) ;
+    margin-top: 15vh;
+    border-radius: 70px;
+}
+#banner3{
+    background-image: url(geobann.jpg) ;
+    border-radius: 70px;
+    position:relative;
+}
+#banner4 {
+    background-image: url(futbann.jpg) ;
+    border-radius: 70px;
+    position:relative;
+}
+#banner6 {
+    background-image: url(tareas\ y\ examenesbann.jpg) ;
+    border-radius: 70px;
+    position:relative;
+}
+@media (max-width: 768px){
+    .banner {
+        width: 90%;
+        height: 20vh;
+    }
+}
+@media (max-width: 480px){
+    .banner {
+        width: 100%;
+        height: 15vh;
+    }
+}
